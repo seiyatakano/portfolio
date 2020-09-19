@@ -1,6 +1,7 @@
 'use strict';
 
 $(function() {
+    console.log('attempt1');
     var $container = $('.container_portfolios');
 
         $.getJSON('./data/content.json', function (data) {
@@ -16,4 +17,10 @@ $(function() {
                 $container.append(elements[i]);
             });
         });
+
+    var $portfolio = $('.portfolio');
+    
+    $portfolio.on('click', function() {
+        alert('seiyatakano');
+    });
 })
