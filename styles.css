@@ -39,7 +39,7 @@ button{
     height: 80vw;
     margin-top: 0.5em;
 }
-.container_portfolios .portfolio img{
+.portfolios .portfolio img{
     width: 40%;
     height: 40%;
 }
