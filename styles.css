@@ -7,9 +7,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
 }
-.head_title{
-    display: inline-block;
-}
 #gallery, #career, #skills, #accounts{
     padding: 1em;
 }
@@ -29,20 +26,23 @@ button{
 }
 
 /* galleryセクション */
-.container_portfolios{
-    display: flex;
+.portfolios{
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-around;
+    align-content: space-around; */
+    /* width:  */
 }
-.container_portfolios .portfolio{
-    width: 33vw;
-    height: 33vw;
+.portfolios .portfolio{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 80vw;
     margin-top: 0.5em;
 }
 .container_portfolios .portfolio img{
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
 }
 
 /* accountsセクション */
@@ -67,7 +67,7 @@ button{
 }
 @media screen and (min-width: 1024px){
     #gallery, #career, #skills, #accounts{
-        width: 75%;
+        width: 60%;
         margin: 0 auto;
     }
 }
