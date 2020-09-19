@@ -6,6 +6,7 @@ body{
     font-size:18px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .head_title{
     display: inline-block;
@@ -29,8 +30,8 @@ button{
     align-content: space-around;
 }
 .container_portfolios .portfolio{
-    width: 45vw;
-    height: 45vw;
+    width: 33vw;
+    height: 33vw;
     margin-top: 0.5em;
     background-color: green;
 }
