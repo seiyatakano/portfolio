@@ -8,9 +8,7 @@ $(function() {
 
             $.each(data, function(i, item){
                 var itemHTML = 
-                '<div class="portfolio">'+
-                "<img src="+item.images.thumb+">"+
-                "</div>";
+                `<div class="portfolio"><img src="${item.images.thumb}"></div>`;
                 elements.push($(itemHTML).get(0));
             });
 
