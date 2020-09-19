@@ -10,7 +10,9 @@ $(function() {
             $.each(data, function(i, item){
                 var itemHTML = 
                 `<div class="portfolio">
-                    <img src="${item.images.thumb}">
+                    <div>
+                        <img src="${item.images.thumb}">
+                    </div>
                     <div class="description">
                         <h3>${item.title}</h3>
                         <p>${item.description}</p>
