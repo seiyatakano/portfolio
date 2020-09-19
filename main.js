@@ -1,7 +1,7 @@
 'use strict';
 
 $(function() {
-    console.log('attempt3');
+    console.log('attempt4');
     var $container = $('.portfolios');
 
         $.getJSON('./data/content.json', function (data) {
@@ -10,9 +10,7 @@ $(function() {
             $.each(data, function(i, item){
                 var itemHTML = 
                 `<div class="portfolio">
-                    <div>
-                        <img src="${item.images.thumb}">
-                    </div>
+                    <img src="${item.images.thumb}">
                     <div class="description">
                         <h3>${item.title}</h3>
                         <p>${item.description}</p>
