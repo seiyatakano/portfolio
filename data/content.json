@@ -1,6 +1,7 @@
 [
     {
         "title": "Schedule Arranger",
+        "description": "service",
         "images": {
             "thumb": "img/schedule_arranger-thumb.png",
             "large": "img/schedule_arranger-large.png",
@@ -9,6 +10,7 @@
     },
     {
         "title": "Photo Gallery",
+        "description": "service",
         "images": {
             "thumb": "img/photo_gallery-thumb.png",
             "large": "img/photo_gallery-large.png",
@@ -17,6 +19,7 @@
     },
     {
         "title": "Realtime Chat",
+        "description": "service",
         "images": {
             "thumb": "img/realtime_chat-thumb.png",
             "large": "img/realtime_chat-large.png",
@@ -25,6 +28,7 @@
     },
     {
         "title": "Portfolios",
+        "description": "service",
         "images": {
             "thumb": "img/portfolios-thumb.png",
             "large": "img/portfolios-large.png",

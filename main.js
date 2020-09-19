@@ -14,7 +14,7 @@ $(function() {
                     <div class="description">
                         <h3>${item.title}</h3>
                         <p>${item.description}</p>
-                        <a href=${item.images.url}>リンクに飛ぶ</a>
+                        <p><a href=${item.images.url}>リンクに飛ぶ</a></p>
                     </div>
                 </div>`;
                 elements.push($(itemHTML).get(0));
