@@ -1,11 +1,10 @@
-.navbar-light .navbar-toggler{
-    border-color: rgba(0,0,0,0);
-    width: 5px;
-}
 body{
     font-size:18px;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
+}
+.head_title{
+    font-size: 2rem;
 }
 #gallery, #career, #skills, #accounts{
     padding: 1em;
