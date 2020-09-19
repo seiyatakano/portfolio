@@ -1,0 +1,67 @@
+.navbar-light .navbar-toggler{
+    border-color: rgba(0,0,0,0);
+    width: 5px;
+}
+body{
+    font-size:18px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.head_title{
+    display: inline-block;
+}
+#gallery, #career, #skills, #accounts{
+    padding: 1em;
+}
+.table td{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+button{
+    padding: 0;
+}
+
+/* galleryセクション */
+.container_portfolios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.container_portfolios .portfolio{
+    width: 45vw;
+    height: 45vw;
+    margin-top: 0.5em;
+    background-color: green;
+}
+.container_portfolios .portfolio img{
+    width: 100%;
+    height: 100%;
+}
+
+/* accountsセクション */
+.footer_page .container_accounts{
+    display: flex;
+    justify-content: space-around;
+}
+/* footerページ */
+.footer_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color:black;
+    color: white;
+    padding: 1em;
+}
+.footer_page .copyright{
+    float: right;
+    /* position: relative;
+    bottom: 0;
+    right: 0; */
+}
+@media screen and (min-width: 1024px){
+    #gallery, #career, #skills, #accounts{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
