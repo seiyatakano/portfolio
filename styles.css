@@ -13,9 +13,16 @@ body{
 #gallery, #career, #skills, #accounts{
     padding: 1em;
 }
-.table td{
+.section_title{
+    text-align:center;
     font-weight: bold;
-    font-size: 1.1em;
+}
+.table td{
+    font-size: 0.8em;
+}
+.table th{
+    font-size: 1.0em;
+    font-weight: bold;
 }
 button{
     padding: 0;
