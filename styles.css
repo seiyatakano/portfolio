@@ -74,9 +74,24 @@ button{
     bottom: 0;
     right: 0; */
 }
-@media screen and (min-width: 1024px){
-    #gallery, #career, #skills, #accounts{
-        width: 60%;
-        margin: 0 auto;
+@media screen and (min-width: 768px){
+    .portfolio img{
+        width: 25vw;
+        height: 25vw;
+    }
+    .description p {
+        font-size: 1.2em;
+    }
+    .career{
+        width:40vw;
+    }
+    .skills{
+        width: 40vw;
+    }
+    .container_career_skills{
+        width: 95vw;
+        margin:0 auto;
+        display: flex;
+        justify-content:space-around;
     }
 }
