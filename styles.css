@@ -107,9 +107,12 @@ button{
         justify-content:space-around;
         flex-wrap:wrap;
     }
-    .portfolio img{
-        width: 20vw;
-        height: 20vw;
+    .portfolio .portfolio{
+        width: 40vw;
+    }
+    .portfolios .portfolio img{
+        width: 15vw;
+        height: 15vw;
     }
     .container_career_skills{
         width:75vw;

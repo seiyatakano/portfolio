@@ -1,7 +1,7 @@
 'use strict';
 
 $(function() {
-    console.log('attempt4');
+    console.log('attempt5');
     var $container = $('.portfolios');
 
         $.getJSON('./data/content.json', function (data) {
