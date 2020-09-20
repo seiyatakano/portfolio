@@ -11,8 +11,8 @@
     },
     {
         "title": "Photo Gallery",
-        "description": "service",
-        "technology": "簡単なフォトギャラリーです。",
+        "description": "簡単なフォトギャラリーです。画像のサイズを自動認識して適当なレイアウトを施します。",
+        "technology": "簡単なフォトギャラリーです。画像のサイズを自動認識して適当なレイアウトを施します。",
         "images": {
             "thumb": "img/photo_gallery-thumb.png",
             "large": "img/photo_gallery-large.png",
@@ -21,8 +21,8 @@
     },
     {
         "title": "Realtime Chat",
-        "description": "service",
-        "technology": "リアルタイムでチャットができるサービスです。",
+        "description": "リアルタイムでチャットができるサービスです。サーバーから自動的にメッセージをプッシュします。",
+        "technology": "",
         "images": {
             "thumb": "img/realtime_chat-thumb.png",
             "large": "img/realtime_chat-large.png",
@@ -31,12 +31,12 @@
     },
     {
         "title": "Portfolios site",
-        "description": "service",
+        "description": "現在ご覧いただいているポートフォリオサイトです。",
         "technology": "現在ご覧いただいているポートフォリオサイトです。",
         "images": {
             "thumb": "img/portfolios-thumb.png",
             "large": "img/portfolios-large.png",
-            "url": "https://seiyatakano.github.io/gallery/"
+            "url": "https://seiyatakano.github.io/portfolio/"
         }
     }
 ]
