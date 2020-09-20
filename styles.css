@@ -94,4 +94,7 @@ button{
         display: flex;
         justify-content:space-around;
     }
+    .footer_page{
+        padding: 2em;
+    }
 }
