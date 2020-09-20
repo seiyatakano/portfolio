@@ -99,6 +99,9 @@ button{
     }
 }
 @media screen and (min-width: 1024px){
+    .head_title {
+        font-size: 3rem;
+    }
     .portfolios{
         display: flex;
         justify-content:space-around;
