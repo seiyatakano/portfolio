@@ -106,6 +106,9 @@ button{
     .head_title {
         font-size: 3rem;
     }
+    .signature{
+        display:none;
+    }
     .portfolios{
         display: flex;
         justify-content:space-around;
