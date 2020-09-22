@@ -99,6 +99,10 @@ button{
     }
 }
 @media screen and (min-width: 1024px){
+    h2.section_title {
+        font-size: 3em;
+        text-align: left;
+    }
     .head_title {
         font-size: 3rem;
     }
